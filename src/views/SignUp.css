@@ -1,0 +1,20 @@
+.link {
+    display: block;
+    margin: 10px auto 0;
+}
+
+.link a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:disabled {
+    background-color: rgba(192, 192, 192, 0.654);
+    border: 1px solid rgba(192, 192, 192, 0.654);
+}
+
+.btn:disabled:hover {
+    background-color: rgba(192, 192, 192, 0.654);
+    border: 1px solid rgba(192, 192, 192, 0.654);
+    cursor: not-allowed;
+}

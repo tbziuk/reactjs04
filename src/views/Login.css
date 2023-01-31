@@ -1,0 +1,19 @@
+div.login {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+form.login {
+    border: 1px solid #000;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+
+div.login form.login input {
+    display: block;
+    width: 98%;
+    margin: 5px 0 10px;
+    padding: 5px;
+}

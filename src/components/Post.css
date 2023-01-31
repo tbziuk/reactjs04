@@ -1,0 +1,74 @@
+div.post {
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+div.post div.avatar {
+    padding: 5px;
+
+}
+
+div.post div.avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+div.post div.postData {
+    position: relative;
+    padding: 10px 10px 5px 5px;
+    text-align: start;
+    width: 100%;
+}
+
+div.post div.postData div.postMeta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+div.post div.postData div.postMeta div.name {
+    font-weight: 600;
+}
+
+div.post div.postData div.likes {
+    position: relative;
+    min-height: 30px;
+    margin-top: 5px;
+}
+
+div.post div.postData div.likes p {
+    position: absolute;
+    width: max-content;
+    font-size: 18px;
+    padding: 0 7px;
+    border: 1px solid rgba(13, 140, 238, 1);
+    border-radius: 50%;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: rgb(13, 140, 238);
+    transition: all .2s linear;
+}
+
+div.post div.postData div.likes p:hover {
+    color: #fff;
+    background-color: rgb(13, 140, 238);
+}
+
+div.post div.postData button.delete {
+    position: relative;
+    left: 0;
+    padding: 3px 10px;
+    margin-top: 5px;
+}
+
+div.post div.postData button.like {
+    position: absolute;
+    right: 27px;
+    padding: 3px 10px;
+    width: 70px;
+    margin-top: 5px;
+}
